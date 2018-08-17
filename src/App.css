@@ -1,0 +1,63 @@
+ body {
+  background-color: #2196f3;
+  color:white;
+  text-align: center;
+}
+
+input[type=text], select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  display: inline-block;
+  background-color: gold;
+  border-radius: 4px;
+  border: none;
+  color: black;
+  padding: 12px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+ul li {
+  cursor: pointer; 
+  position: relative; 
+  display: inline-block;
+  width:270px;
+  padding: 8px 8px 8px 8px;
+  background:#f9f9f9;
+  font-size: 14px; 
+  color: black;
+  border-radius: 4px;
+  margin: 8px 0;
+}
+
+/*
+ul li:nth-child(odd) {
+  background: #eee;
+}*/
+
+
+ul li.checked {
+  background: #888;
+  color: black;
+  text-decoration: line-through;
+}
+
+/*
+
+.rmvBtn{
+  float: right;
+
+} */
+
+
+
+
+
